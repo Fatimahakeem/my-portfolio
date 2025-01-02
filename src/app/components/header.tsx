@@ -7,7 +7,7 @@ import { AiOutlineMenuFold } from "react-icons/ai";
 import { IoCloseOutline } from "react-icons/io5";
 
 function Header() {
-  let [openMenu, setopenMenu] = useState(false)
+  const [openMenu, setopenMenu] = useState(false)
 
   const ToggleMenu = () => {
     setopenMenu(!openMenu)
